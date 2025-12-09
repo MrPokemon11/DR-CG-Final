@@ -59,8 +59,8 @@ Shader "Custom/ScrollingSky"
                 // Scroll UVs over time
                 float2 scrolledUV = IN.uv + float2(_ScrollX, _ScrollY) * _Time.y;
 
-                // Scroll UVs for foam texture at a different rate
-                float2 scrolledStarUV = IN.uv + float2(_ScrollX, _ScrollY) * (_Time.y * 0.5);
+                // Scroll UVs for snow texture at a different rate
+                float2 scrolledStarUV = IN.uv + float2(_ScrollX, _ScrollY) * (_Time.y * 0.5) + 0.5;
 
                 // Sample both textures using the scrolled UV coordinates
                 half4 sky = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, scrolledUV);
