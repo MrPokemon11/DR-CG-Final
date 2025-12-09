@@ -1,4 +1,4 @@
-Shader "Custom/URP_StencilRead_Hole_BackObject"
+Shader "Custom/StencilShaderBack"
 {
     Properties
     {

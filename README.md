@@ -12,7 +12,7 @@ The surface deformation shader was used to simulate waves in the water below the
 
 
 
-Shader 3
+Scrolling Texture
 
 
 

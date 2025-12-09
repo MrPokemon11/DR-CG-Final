@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bridge_Stencil
+  m_Name: Cloud_Stencil_Front
   m_Shader: {fileID: 4800000, guid: a8b14f097da478e4bba2ce86adcb24a2, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

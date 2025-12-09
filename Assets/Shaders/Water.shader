@@ -1,4 +1,4 @@
-Shader "Custom/URP_WaterShader"
+Shader "Custom/UWater"
 {
     Properties
     {

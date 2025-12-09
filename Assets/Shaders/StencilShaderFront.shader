@@ -1,4 +1,4 @@
-Shader "Custom/URP_StencilWrite_FrontObject"
+Shader "Custom/StencilShaderFront"
 {
     Properties
     {

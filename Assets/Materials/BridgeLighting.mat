@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6476528781630490397
+--- !u!114 &-6460569044406907687
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DarkSky
-  m_Shader: {fileID: 4800000, guid: 3df238ee71e65ac46b5972c111a5f5dc, type: 3}
+  m_Name: BridgeLighting
+  m_Shader: {fileID: 4800000, guid: 4782685b12918714ea3b30e99a438af8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -62,8 +62,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dd381b7d467c59a4c83db0af01135ecf, type: 3}
-        m_Scale: {x: 3, y: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -79,10 +79,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _StarTex:
-        m_Texture: {fileID: 2800000, guid: dd381b7d467c59a4c83db0af01135ecf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -122,8 +118,7 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ScrollX: 1
-    - _ScrollY: -1
+    - _RimPower: 3
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -133,9 +128,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.20409395, g: 0.21178654, b: 0.3433962, a: 1}
-    - _Color: {r: 0.2040939, g: 0.21178651, b: 0.34339616, a: 1}
+    - _BaseColor: {r: 0.15693124, g: 0.15693124, b: 0.2981131, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0.5999999, g: 0.5999999, b: 0.5999999, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
