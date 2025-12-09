@@ -13,7 +13,7 @@ Shader "Custom/StencilShaderBack"
         Stencil
         {
             Ref 1  // Reference value to check against
-            Comp NotEqual  // Only render where the stencil buffer is NOT equal to the reference
+            Comp Equal  // Only render where the stencil buffer IS equal to the reference
         }
 
         // Standard pass
