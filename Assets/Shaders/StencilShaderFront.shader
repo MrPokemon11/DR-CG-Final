@@ -7,7 +7,7 @@ Shader "Custom/StencilShaderFront"
 
     SubShader
     {
-        Tags { "RenderPipeline" = "UniversalRenderPipeline" "Queue" = "Geometry" }
+        Tags { "RenderPipeline" = "UniversalPipeline" "Queue" = "Geometry" }
 
         // Disable color output (so the object doesn't appear visually)
         ColorMask 0

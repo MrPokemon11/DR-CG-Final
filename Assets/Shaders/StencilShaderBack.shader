@@ -7,7 +7,7 @@ Shader "Custom/StencilShaderBack"
 
     SubShader
     {
-        Tags { "RenderPipeline" = "UniversalRenderPipeline" "Queue" = "Geometry" }
+        Tags { "RenderPipeline" = "UniversalPipeline" "Queue" = "Geometry" }
 
         // Stencil operations
         Stencil
