@@ -1,1 +1,58 @@
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/></root></mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="26.1.0">
+  <diagram name="Page-1" id="kgcoJJVDWT2vL2CsBtUz">
+    <mxGraphModel dx="1282" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--1" value="Background" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--2" value="Unaffected by the stencil itself. Covered by the back layer of the stencil." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="95" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ln8QbeyN7DYyvmmp9iU--3" target="Ln8QbeyN7DYyvmmp9iU--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--12" value="Covers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ln8QbeyN7DYyvmmp9iU--11">
+          <mxGeometry x="-0.04" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--3" value="Stencil (Back Layer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--4" value="Makes up the clouds in the scene. Only the parts covered by the front layer are visible to the player." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="205" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ln8QbeyN7DYyvmmp9iU--5" target="Ln8QbeyN7DYyvmmp9iU--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--13" value="Covers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ln8QbeyN7DYyvmmp9iU--10">
+          <mxGeometry x="-0.0286" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--5" value="Play Area" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--6" value="The area where the player is located." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ln8QbeyN7DYyvmmp9iU--7" target="Ln8QbeyN7DYyvmmp9iU--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--14" value="Covers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ln8QbeyN7DYyvmmp9iU--9">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--7" value="Stencil (Front Layer)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ln8QbeyN7DYyvmmp9iU--8" value="&quot;Cuts&quot; the shape of the clouds out of the back layer." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="435" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
